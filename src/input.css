@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@700&family=Merriweather&family=Montserrat:wght@100&family=Roboto:wght@400;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Sacramento&display=swap');
+html{
+    box-sizing: border-box;
+
+}
+
+
+.activate-border{
+
+  padding-bottom: 1rem;
+  border-bottom: 6px solid #5368DF;
+
+}
+
+
+@media only screen and (max-width: 640px) {
+    html {
+      font-size: 90%;
+    }
+  }
+
+.font-dancing{
+
+  font-family: 'Dancing Script', cursive;
+  font-weight: 600;
+
+}
+
+
